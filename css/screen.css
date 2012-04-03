@@ -13,7 +13,7 @@ yellow:#bbb10c
  */
 
 body {background:transparent url(../images/bg.png) repeat 0 0;}
-.container {width:960px;margin:0 auto;padding-left:40px;margin-top:100px;}
+.container {width:960px;margin:0 auto;padding-left:40px;margin-top:100px; margin-bottom: 300px;}
 .span-1, .span-2, .span-3, .span-4 {margin-right:40px;float:left;}
 .span-1 {width:200px;}
 .span-2 {width:440px;}
@@ -218,8 +218,9 @@ img.owl {margin-top:26px;margin-bottom:4px;}
 
 /* proposal */
 
+body.proposal {margin: 0 auto;}
 .right-column-proposals {width: 440px; float: right;}
-.proposal .container {padding-left:0; width:920px;margin-bottom:100px;}
+.proposal .container {padding-left:0; width:920px;margin-bottom:300px;}
 .proposal ul {list-style-type: disc; margin-bottom: 30px;}
 .home-link {position:fixed;right:-110px;top:50px;}
 .proposal .banner {margin-top:40px;margin-bottom:40px;padding-bottom:7px;}
@@ -232,6 +233,88 @@ img.owl {margin-top:26px;margin-bottom:4px;}
 ul.no-bullet-list {list-style: none; padding-left: 7px;}
 ul.no-bullet-list li {margin-bottom: 10px;}
 span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase; color: #1E1E27; text-shadow: 3px 2px 0 #CCC;}
+
+/* proposal nav */
+
+.blogheader-container { 
+    width: 100%; 
+    position: fixed;
+    background-color: ;
+    background: transparent url(../images/bg.png) repeat 0 0; 
+    z-index: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    bottom: 0;
+}
+
+.blogheader {
+    width:960px;
+    margin:0 auto;
+}
+
+
+.blogheader {
+    padding: 20px 0 20px 0;
+    text-align: left;   
+}
+
+.main_nav {
+        float: left;
+        font-family: "Trebuchet MS";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 1.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-indent: 0em;
+        text-align: left;
+        color: #f708a8;
+        margin-bottom: .5em;
+        letter-spacing: .1em;
+        height: 3em;
+}
+
+.main_nav ul, .categories ul { padding: 0; }
+
+.main_nav ul li, .categories ul li {
+    display: inline;
+    margin-left: 0;
+}
+
+.categories {
+        float: left;
+        clear: left;
+        font-family: "Lato";
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1em;
+        text-decoration: none;
+        font-variant: normal;
+        text-indent: 0em;
+        text-align: left;
+}
+
+.categories ul li {
+        margin-left: 0;
+}
+
+.categories ul li a {
+    background: #1E1E27;
+    padding: 8px 12px;
+    letter-spacing: .1em;
+    margin-right: 10px;
+    margin-left: 0px !important;
+    border-radius: 6px;
+    color: #fafafa;
+    box-shadow: 2px 2px #cccccc;
+    
+}
+
+.categories ul li a:hover {
+    background-color: #9E005D;
+    color: #fff;
+    transition: color 1s linear;
+    transition: background-color 1s linear .1;
+}
 
 /* calendar */
 
