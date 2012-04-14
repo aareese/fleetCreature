@@ -234,6 +234,7 @@ ul.no-bullet-list {list-style: none; padding-left: 7px;}
 ul.no-bullet-list li {margin-bottom: 10px;}
 span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase; color: #1E1E27; text-shadow: 3px 2px 0 #CCC;}
 .not-pink p {color: #333333;}
+.align-right{text-align: right;margin-top: 6px;}
 
 /* proposal nav */
 
