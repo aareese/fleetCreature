@@ -13,7 +13,7 @@ yellow:#bbb10c
  */
 
 body {background:transparent url(../images/bg.png) repeat 0 0;}
-.container {width:960px;margin:0 auto;padding-left:40px;margin-top:100px; margin-bottom: 300px;}
+.container {width:960px;margin:0 auto;padding-left:40px; margin-bottom: 300px;}
 .span-1, .span-2, .span-3, .span-4 {margin-right:40px;float:left;}
 .span-1 {width:200px;}
 .span-2 {width:440px;}
@@ -155,8 +155,8 @@ li.social:hover ul#twitter_update_list {display:block;}
 span.emphasis {color:#F708A8;}
 .banner {float:left;margin-bottom:50px;padding-top:12px;border-top: 3px double #999999;border-bottom: 3px double #999999;}
 .banner p {text-align:left;font-weight:normal;color:#333333;font-size:18px;}
-.banner h1 {font-size:21px;margin-top:-3px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase;text-align:left; color: #1E1E27; text-shadow: 2px 1px 0 #CCC;}
-.banner h2 {font-size:46px;margin-top:-5px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase; color: #1E1E27; text-shadow: 3px 2px 0 #CCC;}
+.banner h1 {font-size:21px;margin-top:-3px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase;text-align:left; color: #1E1E27;}
+.banner h2 {font-size:46px;margin-top:-5px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase; color: #1E1E27;}
 .banner h3 {font-family:Lato;font-size:33px;font-weight:100;margin:-12px 0 0 20px; color: #1E1E27}
 .banner h4 {font-family:Lato;font-size:47px;font-weight:100;margin:-12px 0 0 20px; color: #1E1E27}
 .lets-be-friends {margin-bottom:50px;}
@@ -222,7 +222,7 @@ body.proposal {margin: 0 auto;}
 .right-column-proposals {width: 440px; float: right;}
 .proposal .container {padding-left:0; width:920px;margin-bottom:300px;}
 .proposal ul {list-style-type: disc; margin-bottom: 30px;}
-.home-link {position:fixed;right:-110px;top:50px;}
+.home-link {position:fixed;right:-110px;top:100px;}
 .proposal .banner {margin-top:40px;margin-bottom:40px;padding-bottom:7px;}
 .proposal p {font-family:Lato;font-weight:300;text-align:left;margin-bottom:20px;font-size:18px;}
 .proposal li {font-family:Lato;font-weight:300;}
@@ -234,7 +234,7 @@ body.proposal {margin: 0 auto;}
 ul.no-bullet-list {list-style: none; padding-left: 7px;}
 ul.no-bullet-list li {margin-bottom: 10px;}
 ul.value-add {list-style: none; padding-left: 40px; background: transparent url(../images/pink-plus.png) no-repeat 18px 6px;}
-span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase; color: #1E1E27; text-shadow: 3px 2px 0 #CCC;}
+span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase; color: #1E1E27;}
 .not-pink p {color: #333333;}
 .align-right{text-align: right;margin-top: -1px;}
 #footnote{margin: 0px 0px 3px 40px;}
@@ -252,6 +252,7 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
     z-index: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     bottom: 0;
+    display: none;
 }
 
 .blogheader {
@@ -322,6 +323,10 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
     color: #fff;
     transition: color 1s linear;
     transition: background-color 1s linear .1;
+}
+
+#how {
+    margin-top: 100px;
 }
 
 /* calendar */
