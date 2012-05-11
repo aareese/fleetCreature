@@ -228,7 +228,7 @@ body.proposal {margin: 0 auto;}
 .proposal li {font-family:Lato;font-weight:300;}
 .proposal li a{color: #9F006A;}
 .proposal li a:hover {color: #F708A8;}
-.deliverables {border-radius:1em;background: #E2E2E2;width: 397px;padding-top: 9px;padding-bottom: 20px;}
+.deliverables {border-radius:1em;background: #E2E2E2;width: 397px;padding-top: 9px;padding-bottom: 20px; padding-right: 10px;}
 .key-pts {border-radius:1em;background: #E2E2E2;width: 900px;padding-top: 9px;padding-bottom: 20px;}
 .proposal h3 {font-size: 23px;margin-top:-6px;}
 ul.no-bullet-list {list-style: none; padding-left: 7px;}
@@ -240,7 +240,7 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 #footnote{margin: 0px 0px 3px 40px;}
 #mainheading{margin: 20px 0px 40px 0px;}
 #rhino{float: right; margin: -55px 20px 0px 0px;}
-
+.research {border-radius:1em;background: #E2E2E2;padding-top: 9px;padding-bottom: 20px; padding-right: 10px;}
 
 /* proposal nav */
 
