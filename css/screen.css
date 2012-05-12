@@ -185,7 +185,7 @@ li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 
 .alyssa {background:#f2f2f2 url(../images/alyssa.png) no-repeat 0 0;}
 .jesse {background:#f2f2f2 url(../images/jesse.png) no-repeat 0 0;}
-.sarah {background:#f2f2f2 url(../images/sarah.png) no-repeat 0 0;}
+.creature {background:#f2f2f2 url(../images/walrus.png) no-repeat 0 0;}
 .melanie {background:#f2f2f2 url(../images/melanie.png) no-repeat 0 0;}
 
 
@@ -223,9 +223,12 @@ body.proposal {margin: 0 auto;}
 .proposal .container {padding-left:0; width:920px;margin-bottom:300px;}
 .proposal ul {list-style-type: disc; margin-bottom: 30px;}
 .home-link {position:fixed;right:-110px;top:50px;}
+.proposal img {margin-bottom: 30px; float: left;}
 .proposal .banner {margin-top:40px;margin-bottom:40px;padding-bottom:7px;}
 .proposal p {font-family:Lato;font-weight:300;text-align:left;margin-bottom:20px;font-size:18px;}
 .proposal li {font-family:Lato;font-weight:300;}
+.proposal a {color: #F708A8;}
+.proposal a:hover {color: #990568;}
 .proposal li a{color: #9F006A;}
 .proposal li a:hover {color: #F708A8;}
 .deliverables {border-radius:1em;background: #E2E2E2;width: 397px;padding-top: 9px;padding-bottom: 20px; padding-right: 10px;}
