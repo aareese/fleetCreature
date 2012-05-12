@@ -13,7 +13,7 @@ yellow:#bbb10c
  */
 
 body {background:transparent url(../images/bg.png) repeat 0 0;}
-.container {width:960px;margin:0 auto;padding-left:40px;margin-top:100px; margin-bottom: 300px;}
+.container {width:960px;margin:0 auto;padding-left:40px;margin-top:100px; margin-bottom: 175px;}
 .span-1, .span-2, .span-3, .span-4 {margin-right:40px;float:left;}
 .span-1 {width:200px;}
 .span-2 {width:440px;}
@@ -333,6 +333,10 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 .calendar a {color: #F708A8;}
 .calendar a:hover {color: #990568}
 .calendar p {color: #666666;margin-top: 17px;margin-bottom: 5px;}
+
+/* manifesto */
+.manifesto {width: 700px; height: 390px; -webkit-transition: all 1s linear; background: transparent url(../images/manifesto.png) no-repeat 0 200px; margin: 0 auto; margin-top: -200px; margin-bottom:-10px;}
+.manifesto:hover {background: transparent url(../images/manifesto.png) no-repeat 0 0}
 
 /* clearfix */
 
