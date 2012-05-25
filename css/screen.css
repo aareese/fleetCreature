@@ -244,6 +244,8 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 #mainheading{margin: 20px 0px 40px 0px;}
 #rhino{float: right; margin: -55px 20px 0px 0px;}
 .research {border-radius:1em;background: #E2E2E2;padding-top: 9px;padding-bottom: 20px; padding-right: 10px;}
+.radius {border-radius:1em;}
+.ytb {display: inline;}
 
 /* proposal nav */
 
