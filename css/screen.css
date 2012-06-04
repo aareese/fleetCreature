@@ -25,6 +25,7 @@ body {background:transparent url(../images/bg.png) repeat 0 0;}
 
 
 img {border:none;}
+.thumb {margin: none;}
 
 h1 {
     font-family:trebuchet MS;
@@ -246,6 +247,7 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 .research {border-radius:1em;background: #E2E2E2;padding-top: 9px;padding-bottom: 20px; padding-right: 10px;}
 .radius {border-radius:1em;}
 .ytb {display: inline;}
+#thumb {margin: none; float: right; border-radius: 3px; box-shadow: 3px 2px 0 #CCC;}
 
 /* proposal nav */
 
