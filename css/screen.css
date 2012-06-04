@@ -188,6 +188,11 @@ li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 .jesse {background:#f2f2f2 url(../images/jesse.png) no-repeat 0 0;}
 .creature {background:#f2f2f2 url(../images/walrus.png) no-repeat 0 0;}
 .melanie {background:#f2f2f2 url(../images/melanie.png) no-repeat 0 0;}
+.wireframes {background:#f2f2f2 url(../images/tresplace/WireframeMockSM.png) no-repeat 0 0;}
+.wireframes2 {background:#f2f2f2 url(../images/tresplace/WireframeMockSM2.png) no-repeat 0 0;}
+.wireframes3 {background:#f2f2f2 url(../images/tresplace/WireframeMockSM3.png) no-repeat 0 0;}
+.wireframes4 {background:#f2f2f2 url(../images/tresplace/WireframeMockSM4.png) no-repeat 0 0;}
+.upPadding {padding-top: 40px;}
 
 
 /* contact */
