@@ -25,6 +25,7 @@ body {background:transparent url(../images/bg.png) repeat 0 0;}
 
 
 img {border:none;}
+.thumb {margin: none;}
 
 h1 {
     font-family:trebuchet MS;
@@ -187,6 +188,11 @@ li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 .jesse {background:#f2f2f2 url(../images/jesse.png) no-repeat 0 0;}
 .creature {background:#f2f2f2 url(../images/walrus.png) no-repeat 0 0;}
 .melanie {background:#f2f2f2 url(../images/melanie.png) no-repeat 0 0;}
+.wireframes {background:#f2f2f2 url(../images/tresplace/wireframeMockSM.png) no-repeat 0 0;}
+.wireframes2 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM2.png) no-repeat 0 0;}
+.wireframes3 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM3.png) no-repeat 0 0;}
+.wireframes4 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM4.png) no-repeat 0 0;}
+.upPadding {padding-top: 40px;}
 
 
 /* contact */
@@ -244,6 +250,9 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 #mainheading{margin: 20px 0px 40px 0px;}
 #rhino{float: right; margin: -55px 20px 0px 0px;}
 .research {border-radius:1em;background: #E2E2E2;padding-top: 9px;padding-bottom: 20px; padding-right: 10px;}
+.radius {border-radius:1em;}
+.ytb {display: inline;}
+#thumb {margin: none; float: right; border-radius: 3px; box-shadow: 3px 2px 0 #CCC;}
 
 /* proposal nav */
 
