@@ -169,6 +169,8 @@ span.emphasis {color:#F708A8;}
 li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 .devices h3 {font-family:Lato;font-size:24px;font-weight:100;margin-top:0px;margin-bottom:30px;}
 .dark {padding-top:10px;padding-bottom:10px;}
+.dark {color:#f2f2f2; margin-top:20px;padding-left:40px;padding-right:40px;width:880px;}
+.dark h1, .dark h2, .dark h3, .dark h4 {color:#f2f2f2; text-shadow: none;}
 
 /* services */
 
@@ -188,10 +190,10 @@ li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 .jesse {background:#f2f2f2 url(../images/jesse.png) no-repeat 0 0;}
 .creature {background:#f2f2f2 url(../images/walrus.png) no-repeat 0 0;}
 .melanie {background:#f2f2f2 url(../images/melanie.png) no-repeat 0 0;}
-.wireframes {background:#f2f2f2 url(../images/tresplace/wireframeMockSM.png) no-repeat 0 0;}
-.wireframes2 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM2.png) no-repeat 0 0;}
-.wireframes3 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM3.png) no-repeat 0 0;}
-.wireframes4 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM4.png) no-repeat 0 0;}
+.wireframes {background:#f2f2f2 url(../images/tresplace/wireframeMockSM.png) no-repeat 6px 0;}
+.wireframes2 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM2.png) no-repeat 6px 0;}
+.wireframes3 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM3.png) no-repeat 6px 0;}
+.wireframes4 {background:#f2f2f2 url(../images/tresplace/wireframeMockSM4.png) no-repeat 7px 15px;}
 .upPadding {padding-top: 40px;}
 
 
@@ -346,6 +348,17 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 /* manifesto */
 .manifesto {width: 700px; height: 390px; -webkit-transition: all 1s linear; background: transparent url(../images/manifesto.png) no-repeat 0 200px; margin: 0 auto; margin-top: -200px; margin-bottom:-10px;}
 .manifesto:hover {background: transparent url(../images/manifesto.png) no-repeat 0 0}
+
+/* deep-dive */
+.wires img {
+    width: 700px;
+    padding: 40px 110px;
+}
+
+.wire-hover:hover {
+    box-shadow: 0 3px 8px rgba(0,0,0,1);
+    
+}
 
 /* clearfix */
 
