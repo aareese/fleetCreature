@@ -360,6 +360,10 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
     
 }
 
+.bizCanvas {
+    display: inline;
+}
+
 /* clearfix */
 
 .cf:before, .cf:after { content: ""; display: table; }
