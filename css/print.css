@@ -336,8 +336,46 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
 .calendar a:hover {color: #990568}
 .calendar p {color: #666666;margin-top: 17px;margin-bottom: 5px;}
 
+.home-link {
+    display: none;
+}
+
+img.image1 {
+    margin: 0 235px 30px 235px;
+}
+
 /* clearfix */
 
 .cf:before, .cf:after { content: ""; display: table; }
 .cf:after { clear: both; }
 .cf { zoom: 1; }
+
+.bullets {
+    width: 960px;
+    float: left;
+    display: block;
+    margin-right: 0px;
+}
+
+.videos {
+    display: none;
+}
+
+.pop-box {
+    display: block;
+}
+
+.popupbox {
+    width: 430px;
+    height: auto;
+    margin: 10px;
+    float: left;
+}
+
+.wires img {
+    width: 430px;
+}
+
+.lets-be-friends {
+    display:none;
+}
