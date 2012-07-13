@@ -235,7 +235,7 @@ body.proposal {margin: 0 auto;}
 .proposal .banner {margin-top:40px;margin-bottom:40px;padding-bottom:7px;}
 .proposal p {font-family:Lato;font-weight:300;text-align:left;margin-bottom:20px;font-size:18px;}
 .proposal li {font-family:Lato;font-weight:300;}
-.proposal a {color: #F708A8;}
+.proposal a {color: #F708A8; text-decoration: underline;}
 .proposal a:hover {color: #990568;}
 .proposal li a{color: #9F006A;}
 .proposal li a:hover {color: #F708A8;}
@@ -328,7 +328,12 @@ span.darkText {font-size:46px;margin-right: 10px;margin-bottom:0px;font-family:t
     border-radius: 6px;
     color: #fafafa;
     box-shadow: 2px 2px #cccccc;
+    text-decoration: none;
     
+}
+
+.proposal h3 a {
+    text-decoration: none;
 }
 
 .categories ul li a:hover {
