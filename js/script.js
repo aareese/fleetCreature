@@ -1,0 +1,38 @@
+$(document).ready(function() {
+
+    /* This is basic - uses default settings */
+    
+    $("a#single_image").fancybox();
+    
+    /* Using custom settings */
+    
+    $("a#inline").fancybox({
+        'hideOnContentClick': true
+    });
+
+    /* Apply fancybox to multiple items */
+    
+    $("a.group").fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'elastic',
+        'speedIn'       :   600, 
+        'speedOut'      :   200, 
+        'overlayShow'   :   false
+    });
+    
+    $('.show-map').click(function(e) {
+      e.preventDefault()
+      $('.map').animate({
+        left: '+=10000'
+      });
+    });
+
+    $('.hide-map').click(function(e) {
+      e.preventDefault();
+        $('.map').animate({
+        left: '-=10000'
+        });
+    });
+
+
+});
